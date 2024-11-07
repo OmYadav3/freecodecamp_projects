@@ -13,6 +13,9 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/index.html");
 });
 
+
+//User get request
+
 app.get("/api/users", (req, res) => {
   res.json(users);
 });
